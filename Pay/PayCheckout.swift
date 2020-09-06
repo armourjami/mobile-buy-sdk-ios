@@ -31,7 +31,7 @@ import PassKit
 /// dialog. It also creates summary items for cart total,
 /// subtotal, taxes, shipping, and more.
 ///
-public struct PayCheckout {
+@objc public class PayCheckout: NSObject {
 
     public let id:               String
     public let hasLineItems:     Bool

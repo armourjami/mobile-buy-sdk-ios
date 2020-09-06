@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// The schema’s entry-point for queries. This acts as the public, top-level 
 	/// API from which all queries must start. 
-	open class QueryRootQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class QueryRootQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = QueryRoot
 
 		/// List of the shop's articles. 
@@ -558,7 +558,7 @@ extension Storefront {
 
 	/// The schema’s entry-point for queries. This acts as the public, top-level 
 	/// API from which all queries must start. 
-	open class QueryRoot: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class QueryRoot: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = QueryRootQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

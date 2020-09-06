@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Represents a single line in an order. There is one line item for each 
 	/// distinct product variant. 
-	open class OrderLineItemQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class OrderLineItemQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = OrderLineItem
 
 		/// The number of entries associated to the line item minus the items that have 
@@ -111,7 +111,7 @@ extension Storefront {
 
 	/// Represents a single line in an order. There is one line item for each 
 	/// distinct product variant. 
-	open class OrderLineItem: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class OrderLineItem: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = OrderLineItemQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

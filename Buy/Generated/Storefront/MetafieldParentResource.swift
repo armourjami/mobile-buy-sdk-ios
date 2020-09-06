@@ -32,7 +32,7 @@ public protocol MetafieldParentResource {
 
 extension Storefront {
 	/// A resource that the metafield belongs to. 
-	open class MetafieldParentResourceQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MetafieldParentResourceQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = MetafieldParentResource
 
 		override init() {
@@ -60,7 +60,7 @@ extension Storefront {
 	}
 
 	/// A resource that the metafield belongs to. 
-	open class UnknownMetafieldParentResource: GraphQL.AbstractResponse, GraphQLObject, MetafieldParentResource {
+	@objc open class UnknownMetafieldParentResource: GraphQL.AbstractResponse, GraphQLObject, MetafieldParentResource {
 		public typealias Query = MetafieldParentResourceQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

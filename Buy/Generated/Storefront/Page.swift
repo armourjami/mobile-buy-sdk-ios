@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Shopify merchants can create pages to hold static HTML content. Each Page 
 	/// object represents a custom page on the online store. 
-	open class PageQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class PageQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Page
 
 		/// The description of the page, complete with HTML formatting. 
@@ -92,7 +92,7 @@ extension Storefront {
 
 	/// Shopify merchants can create pages to hold static HTML content. Each Page 
 	/// object represents a custom page on the online store. 
-	open class Page: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class Page: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = PageQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

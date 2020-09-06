@@ -28,7 +28,7 @@ import Foundation
 
 /// Represents the currency used in a transaction.
 ///
-public struct PayCurrency {
+@objc public class PayCurrency: NSObject {
 
     /// A string representing an ISO 4217 currency code (eg: "USD")
     public let currencyCode: String

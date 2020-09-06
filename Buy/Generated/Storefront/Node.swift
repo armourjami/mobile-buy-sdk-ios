@@ -33,7 +33,7 @@ public protocol Node {
 
 extension Storefront {
 	/// An object with an ID to support global identification. 
-	open class NodeQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class NodeQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Node
 
 		/// Globally unique identifier. 
@@ -230,7 +230,7 @@ extension Storefront {
 	}
 
 	/// An object with an ID to support global identification. 
-	open class UnknownNode: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class UnknownNode: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = NodeQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// An object representing exchange of money for a product or service. 
-	open class TransactionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class TransactionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Transaction
 
 		/// The amount of money that the transaction was for. 
@@ -80,7 +80,7 @@ extension Storefront {
 	}
 
 	/// An object representing exchange of money for a product or service. 
-	open class Transaction: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Transaction: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = TransactionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

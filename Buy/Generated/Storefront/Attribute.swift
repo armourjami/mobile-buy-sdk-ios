@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents a generic custom attribute. 
-	open class AttributeQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class AttributeQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Attribute
 
 		/// Key or name of the attribute. 
@@ -47,7 +47,7 @@ extension Storefront {
 	}
 
 	/// Represents a generic custom attribute. 
-	open class Attribute: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Attribute: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = AttributeQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

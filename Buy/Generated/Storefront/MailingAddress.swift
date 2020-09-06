@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents a mailing address for customers and shipping. 
-	open class MailingAddressQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MailingAddressQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = MailingAddress
 
 		/// The first line of the address. Typically the street address or PO Box 
@@ -187,7 +187,7 @@ extension Storefront {
 	}
 
 	/// Represents a mailing address for customers and shipping. 
-	open class MailingAddress: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class MailingAddress: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = MailingAddressQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

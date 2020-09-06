@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `customerAddressDelete` mutation. 
-	open class CustomerAddressDeletePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerAddressDeletePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerAddressDeletePayload
 
 		/// List of errors that occurred executing the mutation. 
@@ -61,7 +61,7 @@ extension Storefront {
 	}
 
 	/// Return type for `customerAddressDelete` mutation. 
-	open class CustomerAddressDeletePayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerAddressDeletePayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerAddressDeletePayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

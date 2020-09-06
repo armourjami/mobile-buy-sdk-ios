@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Automatic discount applications capture the intentions of a discount that 
 	/// was automatically applied. 
-	open class AutomaticDiscountApplicationQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class AutomaticDiscountApplicationQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = AutomaticDiscountApplication
 
 		/// The method by which the discount's value is allocated to its entitled 
@@ -74,7 +74,7 @@ extension Storefront {
 
 	/// Automatic discount applications capture the intentions of a discount that 
 	/// was automatically applied. 
-	open class AutomaticDiscountApplication: GraphQL.AbstractResponse, GraphQLObject, DiscountApplication {
+	@objc open class AutomaticDiscountApplication: GraphQL.AbstractResponse, GraphQLObject, DiscountApplication {
 		public typealias Query = AutomaticDiscountApplicationQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

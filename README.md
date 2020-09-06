@@ -314,7 +314,7 @@ GraphQL specifies two types of operations: queries and mutations. The `Client` e
 Semantically, a GraphQL `query` operation is equivalent to a `GET` RESTful call. It guarantees that no resources will be mutated on the server. With `Graph.Client`, you can perform a query operation using:
 
 ```swift
-public func queryGraphWith(_ query: Storefront.QueryRootQuery, retryHandler: RetryHandler<Storefront.QueryRoot>? = default, completionHandler: QueryCompletion) -> Task
+@objc public func queryGraphWith(_ query: Storefront.QueryRootQuery, retryHandler: RetryHandler<Storefront.QueryRoot>? = default, completionHandler: QueryCompletion) -> Task
 ```
 
 The following example shows how you can query for a shop's name:
@@ -345,7 +345,7 @@ Semantically a GraphQL `mutation` operation is equivalent to a `PUT`, `POST` or 
 With `Graph.Client` you can perform a mutation operation using:
 
 ```swift
-public func mutateGraphWith(_ mutation: Storefront.MutationQuery, retryHandler: RetryHandler<Storefront.Mutation>? = default, completionHandler: MutationCompletion) -> Task
+@objc public func mutateGraphWith(_ mutation: Storefront.MutationQuery, retryHandler: RetryHandler<Storefront.Mutation>? = default, completionHandler: MutationCompletion) -> Task
 ```
 
 The following example shows how you can reset a customer's password using a recovery token:

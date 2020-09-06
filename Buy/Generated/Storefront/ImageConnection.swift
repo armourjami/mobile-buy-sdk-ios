@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class ImageConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ImageConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ImageConnection
 
 		/// A list of edges. 
@@ -51,7 +51,7 @@ extension Storefront {
 		}
 	}
 
-	open class ImageConnection: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class ImageConnection: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ImageConnectionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

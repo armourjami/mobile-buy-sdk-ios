@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Tracking information associated with the fulfillment. 
-	open class FulfillmentTrackingInfoQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class FulfillmentTrackingInfoQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = FulfillmentTrackingInfo
 
 		/// The tracking number of the fulfillment. 
@@ -47,7 +47,7 @@ extension Storefront {
 	}
 
 	/// Tracking information associated with the fulfillment. 
-	open class FulfillmentTrackingInfo: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class FulfillmentTrackingInfo: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = FulfillmentTrackingInfoQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

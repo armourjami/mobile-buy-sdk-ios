@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents an image resource. 
-	open class ImageQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ImageQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Image
 
 		/// A word or phrase to share the nature or contents of an image. 
@@ -106,7 +106,7 @@ extension Storefront {
 	}
 
 	/// Represents an image resource. 
-	open class Image: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Image: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ImageQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

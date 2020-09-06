@@ -32,7 +32,7 @@ public protocol PricingValue {
 
 extension Storefront {
 	/// The price value (fixed or percentage) for a discount application. 
-	open class PricingValueQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class PricingValueQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = PricingValue
 
 		override init() {
@@ -60,7 +60,7 @@ extension Storefront {
 	}
 
 	/// The price value (fixed or percentage) for a discount application. 
-	open class UnknownPricingValue: GraphQL.AbstractResponse, GraphQLObject, PricingValue {
+	@objc open class UnknownPricingValue: GraphQL.AbstractResponse, GraphQLObject, PricingValue {
 		public typealias Query = PricingValueQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -37,7 +37,7 @@ public protocol HasMetafields {
 extension Storefront {
 	/// Represents information about the metafields associated to the specified 
 	/// resource. 
-	open class HasMetafieldsQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class HasMetafieldsQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = HasMetafields
 
 		/// The metafield associated with the resource. 
@@ -138,7 +138,7 @@ extension Storefront {
 
 	/// Represents information about the metafields associated to the specified 
 	/// resource. 
-	open class UnknownHasMetafields: GraphQL.AbstractResponse, GraphQLObject, HasMetafields {
+	@objc open class UnknownHasMetafields: GraphQL.AbstractResponse, GraphQLObject, HasMetafields {
 		public typealias Query = HasMetafieldsQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

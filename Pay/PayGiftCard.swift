@@ -28,7 +28,7 @@ import Foundation
 
 /// Represents a gift card to be applied to the checkout.
 ///
-public struct PayGiftCard {
+@objc public class PayGiftCard: NSObject {
     
     /// Globally unique identifier.
     public let id: String

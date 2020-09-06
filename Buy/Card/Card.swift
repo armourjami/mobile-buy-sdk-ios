@@ -26,4 +26,4 @@
 
 import Foundation
 
-public struct Card {}
+@objc public class Card: NSObject {}

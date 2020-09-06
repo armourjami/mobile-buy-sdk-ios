@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `customerCreate` mutation. 
-	open class CustomerCreatePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerCreatePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerCreatePayload
 
 		/// The created customer object. 
@@ -64,7 +64,7 @@ extension Storefront {
 	}
 
 	/// Return type for `customerCreate` mutation. 
-	open class CustomerCreatePayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerCreatePayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerCreatePayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

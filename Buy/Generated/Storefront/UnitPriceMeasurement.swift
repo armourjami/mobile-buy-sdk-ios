@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// The measurement used to calculate a unit price for a product variant (e.g. 
 	/// $9.99 / 100ml). 
-	open class UnitPriceMeasurementQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class UnitPriceMeasurementQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = UnitPriceMeasurement
 
 		/// The type of unit of measurement for the unit price measurement. 
@@ -70,7 +70,7 @@ extension Storefront {
 
 	/// The measurement used to calculate a unit price for a product variant (e.g. 
 	/// $9.99 / 100ml). 
-	open class UnitPriceMeasurement: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class UnitPriceMeasurement: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = UnitPriceMeasurementQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

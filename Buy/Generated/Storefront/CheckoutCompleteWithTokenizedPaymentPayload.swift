@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `checkoutCompleteWithTokenizedPayment` mutation. 
-	open class CheckoutCompleteWithTokenizedPaymentPayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CheckoutCompleteWithTokenizedPaymentPayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CheckoutCompleteWithTokenizedPaymentPayload
 
 		/// The checkout on which the payment was applied. 
@@ -74,7 +74,7 @@ extension Storefront {
 	}
 
 	/// Return type for `checkoutCompleteWithTokenizedPayment` mutation. 
-	open class CheckoutCompleteWithTokenizedPaymentPayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CheckoutCompleteWithTokenizedPaymentPayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CheckoutCompleteWithTokenizedPaymentPayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

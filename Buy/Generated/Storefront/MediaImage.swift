@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents a Shopify hosted image. 
-	open class MediaImageQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MediaImageQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = MediaImage
 
 		/// A word or phrase to share the nature or contents of a media. 
@@ -74,7 +74,7 @@ extension Storefront {
 	}
 
 	/// Represents a Shopify hosted image. 
-	open class MediaImage: GraphQL.AbstractResponse, GraphQLObject, Media, Node {
+	@objc open class MediaImage: GraphQL.AbstractResponse, GraphQLObject, Media, Node {
 		public typealias Query = MediaImageQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

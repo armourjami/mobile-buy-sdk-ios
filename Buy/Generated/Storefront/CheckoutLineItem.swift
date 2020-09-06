@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// A single line item in the checkout, grouped by variant and attributes. 
-	open class CheckoutLineItemQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CheckoutLineItemQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CheckoutLineItem
 
 		/// Extra information in the form of an array of Key-Value pairs about the line 
@@ -96,7 +96,7 @@ extension Storefront {
 	}
 
 	/// A single line item in the checkout, grouped by variant and attributes. 
-	open class CheckoutLineItem: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class CheckoutLineItem: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = CheckoutLineItemQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

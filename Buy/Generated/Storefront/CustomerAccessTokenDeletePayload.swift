@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `customerAccessTokenDelete` mutation. 
-	open class CustomerAccessTokenDeletePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerAccessTokenDeletePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerAccessTokenDeletePayload
 
 		/// The destroyed access token. 
@@ -57,7 +57,7 @@ extension Storefront {
 	}
 
 	/// Return type for `customerAccessTokenDelete` mutation. 
-	open class CustomerAccessTokenDeletePayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerAccessTokenDeletePayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerAccessTokenDeletePayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

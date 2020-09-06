@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// An online store blog. 
-	open class BlogQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class BlogQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Blog
 
 		/// Find an article by its handle. 
@@ -152,7 +152,7 @@ extension Storefront {
 	}
 
 	/// An online store blog. 
-	open class Blog: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class Blog: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = BlogQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

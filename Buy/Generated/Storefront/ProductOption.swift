@@ -30,7 +30,7 @@ extension Storefront {
 	/// Custom product property names like "Size", "Color", and "Material". 
 	/// Products are based on permutations of these options. A product may have a 
 	/// maximum of 3 options. 255 characters limit each. 
-	open class ProductOptionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ProductOptionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ProductOption
 
 		/// Globally unique identifier. 
@@ -58,7 +58,7 @@ extension Storefront {
 	/// Custom product property names like "Size", "Color", and "Material". 
 	/// Products are based on permutations of these options. A product may have a 
 	/// maximum of 3 options. 255 characters limit each. 
-	open class ProductOption: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class ProductOption: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = ProductOptionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

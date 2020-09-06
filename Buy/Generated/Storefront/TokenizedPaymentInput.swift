@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Specifies the fields required to complete a checkout with a tokenized 
 	/// payment. 
-	open class TokenizedPaymentInput {
+	@objc open class TokenizedPaymentInput: NSObject {
 		/// The amount of the payment. 
 		open var amount: Decimal
 

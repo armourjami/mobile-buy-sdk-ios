@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents a web address. 
-	open class DomainQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class DomainQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Domain
 
 		/// The host name of the domain (eg: `example.com`). 
@@ -54,7 +54,7 @@ extension Storefront {
 	}
 
 	/// Represents a web address. 
-	open class Domain: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Domain: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = DomainQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

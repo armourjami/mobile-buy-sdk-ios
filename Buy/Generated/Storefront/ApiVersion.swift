@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// A version of the API. 
-	open class ApiVersionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ApiVersionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ApiVersion
 
 		/// The human-readable name of the version. 
@@ -55,7 +55,7 @@ extension Storefront {
 	}
 
 	/// A version of the API. 
-	open class ApiVersion: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class ApiVersion: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ApiVersionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents a Shopify hosted video. 
-	open class VideoQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class VideoQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Video
 
 		/// A word or phrase to share the nature or contents of a media. 
@@ -74,7 +74,7 @@ extension Storefront {
 	}
 
 	/// Represents a Shopify hosted video. 
-	open class Video: GraphQL.AbstractResponse, GraphQLObject, Media, Node {
+	@objc open class Video: GraphQL.AbstractResponse, GraphQLObject, Media, Node {
 		public typealias Query = VideoQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// A container for all the information required to checkout items and pay. 
-	open class CheckoutQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CheckoutQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Checkout
 
 		/// The gift cards used on the checkout. 
@@ -386,7 +386,7 @@ extension Storefront {
 	}
 
 	/// A container for all the information required to checkout items and pay. 
-	open class Checkout: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class Checkout: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = CheckoutQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

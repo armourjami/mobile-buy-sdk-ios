@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Specifies the fields required to complete a checkout with a Shopify vaulted 
 	/// credit card payment. 
-	open class CreditCardPaymentInput {
+	@objc open class CreditCardPaymentInput {
 		/// The amount of the payment. 
 		open var amount: Decimal
 

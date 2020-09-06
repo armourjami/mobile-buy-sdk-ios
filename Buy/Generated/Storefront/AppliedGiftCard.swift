@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Details about the gift card used on the checkout. 
-	open class AppliedGiftCardQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class AppliedGiftCardQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = AppliedGiftCard
 
 		/// The amount that was taken from the gift card by applying it. 
@@ -93,7 +93,7 @@ extension Storefront {
 	}
 
 	/// Details about the gift card used on the checkout. 
-	open class AppliedGiftCard: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class AppliedGiftCard: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = AppliedGiftCardQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

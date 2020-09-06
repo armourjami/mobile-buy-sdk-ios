@@ -31,7 +31,7 @@ extension Storefront {
 	/// from a shop. An order is created when a customer completes the checkout 
 	/// process, during which time they provides an email address, billing address 
 	/// and payment information. 
-	open class OrderQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class OrderQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Order
 
 		/// Represents the reason for the order's cancellation. Returns null if the 
@@ -414,7 +414,7 @@ extension Storefront {
 	/// from a shop. An order is created when a customer completes the checkout 
 	/// process, during which time they provides an email address, billing address 
 	/// and payment information. 
-	open class Order: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class Order: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = OrderQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

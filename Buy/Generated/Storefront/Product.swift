@@ -32,7 +32,7 @@ extension Storefront {
 	/// digital download (such as a movie, music or ebook file) also qualifies as a 
 	/// product, as do services (such as equipment rental, work for hire, 
 	/// customization of another product or an extended warranty). 
-	open class ProductQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ProductQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Product
 
 		/// Indicates if at least one product variant is available for sale. 
@@ -537,7 +537,7 @@ extension Storefront {
 	/// digital download (such as a movie, music or ebook file) also qualifies as a 
 	/// product, as do services (such as equipment rental, work for hire, 
 	/// customization of another product or an extended warranty). 
-	open class Product: GraphQL.AbstractResponse, GraphQLObject, HasMetafields, MetafieldParentResource, Node {
+	@objc open class Product: GraphQL.AbstractResponse, GraphQLObject, HasMetafields, MetafieldParentResource, Node {
 		public typealias Query = ProductQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

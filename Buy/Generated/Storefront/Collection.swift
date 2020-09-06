@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// A collection represents a grouping of products that a shop owner can create 
 	/// to organize them or make their shops easier to browse. 
-	open class CollectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CollectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Collection
 
 		/// Stripped description of the collection, single line with HTML tags removed. 
@@ -174,7 +174,7 @@ extension Storefront {
 
 	/// A collection represents a grouping of products that a shop owner can create 
 	/// to organize them or make their shops easier to browse. 
-	open class Collection: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class Collection: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = CollectionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

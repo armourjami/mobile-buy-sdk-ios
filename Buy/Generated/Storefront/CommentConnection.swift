@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class CommentConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CommentConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CommentConnection
 
 		/// A list of edges. 
@@ -51,7 +51,7 @@ extension Storefront {
 		}
 	}
 
-	open class CommentConnection: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CommentConnection: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CommentConnectionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

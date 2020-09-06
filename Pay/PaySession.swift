@@ -170,7 +170,7 @@ public class PaySession: NSObject {
     /// Apple Pay dialog. The `delegate` will then be called when the user
     /// begins changing billing address, shipping address, and shipping rates.
     ///
-    public func authorize() {
+    @objc public func authorize() {
         let paymentRequest  = self.paymentRequestUsing(self.checkout, currency: self.currency, merchantID: self.merchantID)
         let controller      = self.controllerType.init(paymentRequest: paymentRequest)
         controller.delegate = self
@@ -205,14 +205,14 @@ extension PaySession: PKPaymentAuthorizationControllerDelegate {
     //  MARK: - PKPaymentAuthorizationControllerDelegate -
     //
     @available(iOS 11.0, watchOS 4.0, *)
-    public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didAuthorizePayment payment: PKPayment, handler completion: @escaping (PKPaymentAuthorizationResult) -> Void) {
+    @objc public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didAuthorizePayment payment: PKPayment, handler completion: @escaping (PKPaymentAuthorizationResult) -> Void) {
         self.paymentAuthorizationController(controller, didAuthorizePayment: payment) { (status: PKPaymentAuthorizationStatus) in
             let result = PKPaymentAuthorizationResult(status: status, errors: nil)
             completion(result)
         }
     }
     
-    public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didAuthorizePayment payment: PKPayment, completion: @escaping (PKPaymentAuthorizationStatus) -> Void) {
+    @objc public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didAuthorizePayment payment: PKPayment, completion: @escaping (PKPaymentAuthorizationStatus) -> Void) {
 
         var shippingRate: PayShippingRate?
 
@@ -245,7 +245,7 @@ extension PaySession: PKPaymentAuthorizationControllerDelegate {
     }
     
     @available(iOS 11.0, watchOS 4.0, *)
-    public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didSelectShippingContact contact: PKContact, handler completion: @escaping (PKPaymentRequestShippingContactUpdate) -> Void) {
+    @objc public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didSelectShippingContact contact: PKContact, handler completion: @escaping (PKPaymentRequestShippingContactUpdate) -> Void) {
         
         self.paymentAuthorizationController(controller, didSelectShippingContact: contact) { status, shippingMethod, summaryItems in
             let result    = PKPaymentRequestShippingContactUpdate(errors: nil, paymentSummaryItems: summaryItems, shippingMethods: shippingMethod)
@@ -254,7 +254,7 @@ extension PaySession: PKPaymentAuthorizationControllerDelegate {
         }
     }
 
-    public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didSelectShippingContact contact: PKContact, completion: @escaping (PKPaymentAuthorizationStatus, [PKShippingMethod], [PKPaymentSummaryItem]) -> Void) {
+    @objc public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didSelectShippingContact contact: PKContact, completion: @escaping (PKPaymentAuthorizationStatus, [PKShippingMethod], [PKPaymentSummaryItem]) -> Void) {
         Log("Selecting shipping contact...")
         
         guard let postalAddress = contact.postalAddress else {
@@ -328,7 +328,7 @@ extension PaySession: PKPaymentAuthorizationControllerDelegate {
     }
     
     @available(iOS 11.0, watchOS 4.0, *)
-    public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didSelectShippingMethod shippingMethod: PKShippingMethod, handler completion: @escaping (PKPaymentRequestShippingMethodUpdate) -> Void) {
+    @objc public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didSelectShippingMethod shippingMethod: PKShippingMethod, handler completion: @escaping (PKPaymentRequestShippingMethodUpdate) -> Void) {
         self.paymentAuthorizationController(controller, didSelectShippingMethod: shippingMethod) { status, summaryItems in
             let result    = PKPaymentRequestShippingMethodUpdate(paymentSummaryItems: summaryItems)
             result.status = status
@@ -336,7 +336,7 @@ extension PaySession: PKPaymentAuthorizationControllerDelegate {
         }
     }
 
-    public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didSelectShippingMethod shippingMethod: PKShippingMethod, completion: @escaping (PKPaymentAuthorizationStatus, [PKPaymentSummaryItem]) -> Void) {
+    @objc public func paymentAuthorizationController(_ controller: PKPaymentAuthorizationController, didSelectShippingMethod shippingMethod: PKShippingMethod, completion: @escaping (PKPaymentAuthorizationStatus, [PKPaymentSummaryItem]) -> Void) {
         Log("Selecting delivery method...")
         
         /* --------------------------------------
@@ -361,7 +361,7 @@ extension PaySession: PKPaymentAuthorizationControllerDelegate {
         })
     }
 
-    public func paymentAuthorizationControllerDidFinish(_ controller: PKPaymentAuthorizationController) {
+    @objc public func paymentAuthorizationControllerDidFinish(_ controller: PKPaymentAuthorizationController) {
         
         Log("Dismissing authorization controller.")
         controller.dismiss(completion: nil)

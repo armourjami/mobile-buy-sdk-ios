@@ -40,7 +40,7 @@ extension Storefront {
 	/// more general solution, the [Unicode CLDR number formatting database] is 
 	/// available with many implementations (such as 
 	/// [TwitterCldr](https://github.com/twitter/twitter-cldr-rb)). 
-	open class MoneyV2Query: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MoneyV2Query: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = MoneyV2
 
 		/// Decimal money amount. 
@@ -71,7 +71,7 @@ extension Storefront {
 	/// more general solution, the [Unicode CLDR number formatting database] is 
 	/// available with many implementations (such as 
 	/// [TwitterCldr](https://github.com/twitter/twitter-cldr-rb)). 
-	open class MoneyV2: GraphQL.AbstractResponse, GraphQLObject, PricingValue {
+	@objc open class MoneyV2: GraphQL.AbstractResponse, GraphQLObject, PricingValue {
 		public typealias Query = MoneyV2Query
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Specifies the input fields to update a line item on the checkout. 
-	open class CheckoutLineItemUpdateInput {
+	@objc open class CheckoutLineItemUpdateInput: NSObject {
 		/// The identifier of the line item. 
 		open var id: Input<GraphQL.ID>
 

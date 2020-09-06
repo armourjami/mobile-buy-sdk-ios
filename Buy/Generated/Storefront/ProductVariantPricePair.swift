@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// The compare-at price and price of a variant sharing a currency. 
-	open class ProductVariantPricePairQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ProductVariantPricePairQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ProductVariantPricePair
 
 		/// The compare-at price of the variant with associated currency. 
@@ -53,7 +53,7 @@ extension Storefront {
 	}
 
 	/// The compare-at price and price of a variant sharing a currency. 
-	open class ProductVariantPricePair: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class ProductVariantPricePair: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ProductVariantPricePairQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

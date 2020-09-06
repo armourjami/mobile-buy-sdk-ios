@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Represents a single line item in a fulfillment. There is at most one 
 	/// fulfillment line item for each order line item. 
-	open class FulfillmentLineItemQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class FulfillmentLineItemQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = FulfillmentLineItem
 
 		/// The associated order's line item. 
@@ -52,7 +52,7 @@ extension Storefront {
 
 	/// Represents a single line item in a fulfillment. There is at most one 
 	/// fulfillment line item for each order line item. 
-	open class FulfillmentLineItem: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class FulfillmentLineItem: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = FulfillmentLineItemQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -29,11 +29,11 @@ import PassKit
 
 /// Represents a shipping rate quote, usually provided for a specific address.
 ///
-public struct PayShippingRate {
+@objc public class PayShippingRate: NSObject {
 
     /// Represents a `from` and `to` date for the expected delivery time frame. If the `to` date is `nil`, then the expected delivery window is roughly around the `from` date.
     ///
-    public struct DeliveryRange {
+    @objc public class DeliveryRange: NSObject {
 
         /// Delivery is expected no earlier than `from` date.
         public let from: Date
@@ -53,7 +53,7 @@ public struct PayShippingRate {
         }
 
         /// A string that describes how many days until expected delivery (eg: "1 - 2 days").
-        public func descriptionFrom(_ date: Date) -> String {
+        @objc public func descriptionFrom(_ date: Date) -> String {
             let firstDelta = date.daysUntil(self.from)
 
             guard let toDate = self.to else {

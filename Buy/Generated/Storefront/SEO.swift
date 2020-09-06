@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// SEO information. 
-	open class SEOQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class SEOQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = SEO
 
 		/// The meta description. 
@@ -47,7 +47,7 @@ extension Storefront {
 	}
 
 	/// SEO information. 
-	open class SEO: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class SEO: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = SEOQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

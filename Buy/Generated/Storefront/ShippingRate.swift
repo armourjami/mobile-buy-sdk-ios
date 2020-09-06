@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// A shipping rate to be applied to a checkout. 
-	open class ShippingRateQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ShippingRateQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ShippingRate
 
 		/// Human-readable unique identifier for this shipping rate. 
@@ -65,7 +65,7 @@ extension Storefront {
 	}
 
 	/// A shipping rate to be applied to a checkout. 
-	open class ShippingRate: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class ShippingRate: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ShippingRateQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// A collection of available shipping rates for a checkout. 
-	open class AvailableShippingRatesQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class AvailableShippingRatesQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = AvailableShippingRates
 
 		/// Whether or not the shipping rates are ready. The `shippingRates` field is 
@@ -52,7 +52,7 @@ extension Storefront {
 	}
 
 	/// A collection of available shipping rates for a checkout. 
-	open class AvailableShippingRates: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class AvailableShippingRates: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = AvailableShippingRatesQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

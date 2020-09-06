@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e30c3171-2d38-4eb1-9f55-15947c95c24e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Card/Card.Client.swift" afterPath="$PROJECT_DIR$/Buy/Card/Card.Client.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Card/Card.swift" afterPath="$PROJECT_DIR$/Buy/Card/Card.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Client/Graph.Client.swift" afterPath="$PROJECT_DIR$/Buy/Client/Graph.Client.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Client/Graph.QueryError.swift" afterPath="$PROJECT_DIR$/Buy/Client/Graph.QueryError.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Client/Graph.swift" afterPath="$PROJECT_DIR$/Buy/Client/Graph.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ApiVersion.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ApiVersion.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/AppliedGiftCard.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/AppliedGiftCard.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Article.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Article.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ArticleAuthor.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ArticleAuthor.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ArticleConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ArticleConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ArticleEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ArticleEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Attribute.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Attribute.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/AttributeInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/AttributeInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/AutomaticDiscountApplication.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/AutomaticDiscountApplication.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/AvailableShippingRates.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/AvailableShippingRates.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Blog.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Blog.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/BlogConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/BlogConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/BlogEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/BlogEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Checkout.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Checkout.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutAttributesUpdateInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutAttributesUpdateInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutAttributesUpdatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutAttributesUpdatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutAttributesUpdateV2Input.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutAttributesUpdateV2Input.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutAttributesUpdateV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutAttributesUpdateV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteFreePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteFreePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithCreditCardPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithCreditCardPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithCreditCardV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithCreditCardV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithTokenizedPaymentPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithTokenizedPaymentPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithTokenizedPaymentV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithTokenizedPaymentV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithTokenizedPaymentV3Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCompleteWithTokenizedPaymentV3Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCreateInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCreateInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCreatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCreatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCustomerAssociatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCustomerAssociatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCustomerAssociateV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCustomerAssociateV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCustomerDisassociatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCustomerDisassociatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCustomerDisassociateV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutCustomerDisassociateV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutDiscountCodeApplyPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutDiscountCodeApplyPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutDiscountCodeApplyV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutDiscountCodeApplyV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutDiscountCodeRemovePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutDiscountCodeRemovePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutEmailUpdatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutEmailUpdatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutEmailUpdateV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutEmailUpdateV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutGiftCardApplyPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutGiftCardApplyPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutGiftCardRemovePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutGiftCardRemovePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutGiftCardRemoveV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutGiftCardRemoveV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutGiftCardsAppendPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutGiftCardsAppendPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItem.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItem.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemUpdateInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemUpdateInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemsAddPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemsAddPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemsRemovePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemsRemovePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemsReplacePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemsReplacePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemsUpdatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutLineItemsUpdatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutShippingAddressUpdatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutShippingAddressUpdatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutShippingAddressUpdateV2Payload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutShippingAddressUpdateV2Payload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutShippingLineUpdatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutShippingLineUpdatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutUserError.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CheckoutUserError.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Collection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Collection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CollectionConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CollectionConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CollectionEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CollectionEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Comment.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Comment.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CommentAuthor.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CommentAuthor.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CommentConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CommentConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CommentEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CommentEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CreditCard.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CreditCard.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CreditCardPaymentInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CreditCardPaymentInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CreditCardPaymentInputV2.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CreditCardPaymentInputV2.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Customer.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Customer.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessToken.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessToken.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenCreateInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenCreateInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenCreatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenCreatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenCreateWithMultipassPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenCreateWithMultipassPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenDeletePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenDeletePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenRenewPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAccessTokenRenewPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerActivateByUrlPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerActivateByUrlPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerActivateInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerActivateInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerActivatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerActivatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAddressCreatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAddressCreatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAddressDeletePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAddressDeletePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAddressUpdatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerAddressUpdatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerCreateInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerCreateInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerCreatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerCreatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerDefaultAddressUpdatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerDefaultAddressUpdatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerRecoverPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerRecoverPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerResetByUrlPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerResetByUrlPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerResetInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerResetInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerResetPayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerResetPayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerUpdateInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerUpdateInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerUpdatePayload.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerUpdatePayload.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerUserError.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/CustomerUserError.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountAllocation.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountAllocation.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountApplication.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountApplication.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountApplicationConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountApplicationConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountApplicationEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountApplicationEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountCodeApplication.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/DiscountCodeApplication.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/DisplayableError.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/DisplayableError.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Domain.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Domain.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ExternalVideo.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ExternalVideo.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Fulfillment.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Fulfillment.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/FulfillmentLineItem.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/FulfillmentLineItem.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/FulfillmentLineItemConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/FulfillmentLineItemConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/FulfillmentLineItemEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/FulfillmentLineItemEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/FulfillmentTrackingInfo.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/FulfillmentTrackingInfo.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/HasMetafields.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/HasMetafields.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Image.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Image.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ImageConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ImageConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ImageEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ImageEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MailingAddress.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MailingAddress.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MailingAddressConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MailingAddressConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MailingAddressEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MailingAddressEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MailingAddressInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MailingAddressInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ManualDiscountApplication.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ManualDiscountApplication.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Media.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Media.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MediaConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MediaConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MediaEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MediaEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MediaImage.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MediaImage.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Metafield.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Metafield.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MetafieldConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MetafieldConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MetafieldEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MetafieldEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MetafieldParentResource.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MetafieldParentResource.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Model3d.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Model3d.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Model3dSource.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Model3dSource.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MoneyInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MoneyInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MoneyV2.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MoneyV2.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MoneyV2Connection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MoneyV2Connection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/MoneyV2Edge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/MoneyV2Edge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Mutation.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Mutation.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Node.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Node.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Order.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Order.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderLineItem.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderLineItem.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderLineItemConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderLineItemConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderLineItemEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/OrderLineItemEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Page.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Page.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/PageConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/PageConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/PageEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/PageEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/PageInfo.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/PageInfo.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Payment.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Payment.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/PaymentSettings.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/PaymentSettings.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/PricingPercentageValue.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/PricingPercentageValue.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/PricingValue.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/PricingValue.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Product.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Product.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductOption.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductOption.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductPriceRange.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductPriceRange.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductPriceRangeConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductPriceRangeConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductPriceRangeEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductPriceRangeEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariant.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariant.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantPricePair.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantPricePair.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantPricePairConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantPricePairConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantPricePairEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ProductVariantPricePairEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/QueryRoot.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/QueryRoot.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/SEO.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/SEO.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ScriptDiscountApplication.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ScriptDiscountApplication.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/SelectedOption.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/SelectedOption.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/SelectedOptionInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/SelectedOptionInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ShippingRate.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ShippingRate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Shop.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Shop.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/ShopPolicy.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/ShopPolicy.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/StringConnection.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/StringConnection.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/StringEdge.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/StringEdge.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/TokenizedPaymentInput.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/TokenizedPaymentInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/TokenizedPaymentInputV2.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/TokenizedPaymentInputV2.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/TokenizedPaymentInputV3.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/TokenizedPaymentInputV3.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Transaction.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Transaction.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/UnitPriceMeasurement.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/UnitPriceMeasurement.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/UserError.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/UserError.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/Video.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/Video.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Buy/Generated/Storefront/VideoSource.swift" afterPath="$PROJECT_DIR$/Buy/Generated/Storefront/VideoSource.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dependencies/Swift Gen/support/Sources/GraphQL.swift" afterPath="$PROJECT_DIR$/Dependencies/Swift Gen/support/Sources/GraphQL.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dependencies/Swift Gen/support/Tests/GraphQLSupportTests/Generated.swift" afterPath="$PROJECT_DIR$/Dependencies/Swift Gen/support/Tests/GraphQLSupportTests/Generated.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dependencies/Swift Gen/support/Tests/GraphQLSupportTests/Generated/SetIntegerInput.swift" afterPath="$PROJECT_DIR$/Dependencies/Swift Gen/support/Tests/GraphQLSupportTests/Generated/SetIntegerInput.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PayAddress.swift" afterPath="$PROJECT_DIR$/Pay/PayAddress.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PayAuthorization.swift" afterPath="$PROJECT_DIR$/Pay/PayAuthorization.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PayCheckout.swift" afterPath="$PROJECT_DIR$/Pay/PayCheckout.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PayCurrency.swift" afterPath="$PROJECT_DIR$/Pay/PayCurrency.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PayDiscount.swift" afterPath="$PROJECT_DIR$/Pay/PayDiscount.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PayGiftCard.swift" afterPath="$PROJECT_DIR$/Pay/PayGiftCard.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PayLineItem.swift" afterPath="$PROJECT_DIR$/Pay/PayLineItem.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PaySession.swift" afterPath="$PROJECT_DIR$/Pay/PaySession.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pay/PayShippingRate.swift" afterPath="$PROJECT_DIR$/Pay/PayShippingRate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Card.Client.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Buy/Card/Card.Client.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buy/Card/Card.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiVersion.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buy/Generated/Storefront/ApiVersion.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>p</find>
+      <find>pu</find>
+      <find>publ</find>
+      <find>public</find>
+      <find>public st</find>
+      <find>public stru</find>
+      <find>public struc</find>
+      <find>public struct</find>
+      <find>public struct</find>
+      <find>public struct</find>
+      <find>@objc public class</find>
+      <find>@objc o class</find>
+      <find>@objc op class</find>
+      <find>@objc ope class</find>
+      <find>open class</find>
+      <find>@objc open class</find>
+      <find>@objc p</find>
+      <find>@objc puv</find>
+      <find>@objc pu</find>
+      <find>@objc pub</find>
+      <find>@objc publ</find>
+      <find>@objc publi</find>
+      <find>@objc public</find>
+      <find>@objc public</find>
+      <find>@objc public f</find>
+      <find>@objc public fu</find>
+      <find>@objc public fun</find>
+      <find>@objc public func</find>
+      <find>public func</find>
+      <find>public func</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>@objc public class</replace>
+      <replace>@objc public class</replace>
+      <replace />
+      <replace>@objc open class</replace>
+      <replace>@objc public func</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Dependencies</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Buy/Card/Card.swift" />
+        <option value="$PROJECT_DIR$/Buy/Generated/Storefront/ApiVersion.swift" />
+        <option value="$PROJECT_DIR$/Buy/Card/Card.Client.swift" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-buy-sdk-ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-buy-sdk-ios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-buy-sdk-ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-buy-sdk-ios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dependencies" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swift Gen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-buy-sdk-ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-buy-sdk-ios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Buy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-buy-sdk-ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-buy-sdk-ios" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Buy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Card" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e30c3171-2d38-4eb1-9f55-15947c95c24e" name="Default" comment="" />
+      <created>1598559318720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598559318720</updated>
+      <workItem from="1598559320811" duration="3239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3239000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Dependencies/Swift Gen/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-803">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dependencies/Swift Gen/support/Sources/GraphQL.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4372">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buy/Card/Card.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buy/Generated/Storefront/ApiVersion.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buy/Card/Card.Client.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="83" column="8" lean-forward="false" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

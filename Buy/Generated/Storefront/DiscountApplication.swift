@@ -41,7 +41,7 @@ public protocol DiscountApplication {
 extension Storefront {
 	/// Discount applications capture the intentions of a discount source at the 
 	/// time of application. 
-	open class DiscountApplicationQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class DiscountApplicationQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = DiscountApplication
 
 		/// The method by which the discount's value is allocated to its entitled 
@@ -124,7 +124,7 @@ extension Storefront {
 
 	/// Discount applications capture the intentions of a discount source at the 
 	/// time of application. 
-	open class UnknownDiscountApplication: GraphQL.AbstractResponse, GraphQLObject, DiscountApplication {
+	@objc open class UnknownDiscountApplication: GraphQL.AbstractResponse, GraphQLObject, DiscountApplication {
 		public typealias Query = DiscountApplicationQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

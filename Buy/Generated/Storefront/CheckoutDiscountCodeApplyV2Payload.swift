@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `checkoutDiscountCodeApplyV2` mutation. 
-	open class CheckoutDiscountCodeApplyV2PayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CheckoutDiscountCodeApplyV2PayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CheckoutDiscountCodeApplyV2Payload
 
 		/// The updated checkout object. 
@@ -64,7 +64,7 @@ extension Storefront {
 	}
 
 	/// Return type for `checkoutDiscountCodeApplyV2` mutation. 
-	open class CheckoutDiscountCodeApplyV2Payload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CheckoutDiscountCodeApplyV2Payload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CheckoutDiscountCodeApplyV2PayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

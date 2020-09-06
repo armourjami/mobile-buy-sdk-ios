@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Specifies the input fields required for a selected option. 
-	open class SelectedOptionInput {
+	@objc open class SelectedOptionInput {
 		/// The product option’s name. 
 		open var name: String
 

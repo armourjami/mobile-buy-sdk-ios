@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class CheckoutLineItemConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CheckoutLineItemConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CheckoutLineItemConnection
 
 		/// A list of edges. 
@@ -51,7 +51,7 @@ extension Storefront {
 		}
 	}
 
-	open class CheckoutLineItemConnection: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CheckoutLineItemConnection: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CheckoutLineItemConnectionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

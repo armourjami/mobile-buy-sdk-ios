@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `customerAccessTokenCreateWithMultipass` mutation. 
-	open class CustomerAccessTokenCreateWithMultipassPayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerAccessTokenCreateWithMultipassPayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerAccessTokenCreateWithMultipassPayload
 
 		/// An access token object associated with the customer. 
@@ -53,7 +53,7 @@ extension Storefront {
 	}
 
 	/// Return type for `customerAccessTokenCreateWithMultipass` mutation. 
-	open class CustomerAccessTokenCreateWithMultipassPayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerAccessTokenCreateWithMultipassPayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerAccessTokenCreateWithMultipassPayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

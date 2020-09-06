@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// The price range of the product. 
-	open class ProductPriceRangeQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ProductPriceRangeQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ProductPriceRange
 
 		/// The highest variant's price. 
@@ -53,7 +53,7 @@ extension Storefront {
 	}
 
 	/// The price range of the product. 
-	open class ProductPriceRange: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class ProductPriceRange: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ProductPriceRangeQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

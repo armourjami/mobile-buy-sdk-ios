@@ -30,7 +30,7 @@ extension Storefront {
 	/// Custom properties that a shop owner can use to define product variants. 
 	/// Multiple options can exist. Options are represented as: option1, option2, 
 	/// option3, etc. 
-	open class SelectedOptionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class SelectedOptionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = SelectedOption
 
 		/// The product option’s name. 
@@ -51,7 +51,7 @@ extension Storefront {
 	/// Custom properties that a shop owner can use to define product variants. 
 	/// Multiple options can exist. Options are represented as: option1, option2, 
 	/// option3, etc. 
-	open class SelectedOption: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class SelectedOption: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = SelectedOptionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

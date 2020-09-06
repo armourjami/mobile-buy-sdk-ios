@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Specifies the fields required to create a checkout. 
-	open class CheckoutCreateInput {
+	@objc open class CheckoutCreateInput {
 		/// The email with which the customer wants to checkout. 
 		open var email: Input<String>
 

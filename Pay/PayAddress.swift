@@ -29,7 +29,7 @@ import PassKit
 
 /// Represents a partial address without street information.
 ///
-public struct PayPostalAddress {
+@objc public class PayPostalAddress: NSObject {
 
     /// City (eg: "Toronto")
     public let city: String?
@@ -114,7 +114,7 @@ public struct PayPostalAddress {
 
 /// Represents a complete address including first name, last name, phone, and email address.
 ///
-public struct PayAddress {
+@objc public class PayAddress: NSObject {
 
     /// First address line (eg: "Spadina 80")
     public let addressLine1: String?

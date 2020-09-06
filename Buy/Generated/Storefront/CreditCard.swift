@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Credit card information used for a payment. 
-	open class CreditCardQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CreditCardQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CreditCard
 
 		/// The brand of the credit card. 
@@ -89,7 +89,7 @@ extension Storefront {
 	}
 
 	/// Credit card information used for a payment. 
-	open class CreditCard: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CreditCard: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CreditCardQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

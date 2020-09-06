@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents a Shopify hosted 3D model. 
-	open class Model3dQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class Model3dQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Model3d
 
 		/// A word or phrase to share the nature or contents of a media. 
@@ -74,7 +74,7 @@ extension Storefront {
 	}
 
 	/// Represents a Shopify hosted 3D model. 
-	open class Model3d: GraphQL.AbstractResponse, GraphQLObject, Media, Node {
+	@objc open class Model3d: GraphQL.AbstractResponse, GraphQLObject, Media, Node {
 		public typealias Query = Model3dQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `checkoutShippingLineUpdate` mutation. 
-	open class CheckoutShippingLineUpdatePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CheckoutShippingLineUpdatePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CheckoutShippingLineUpdatePayload
 
 		/// The updated checkout object. 
@@ -64,7 +64,7 @@ extension Storefront {
 	}
 
 	/// Return type for `checkoutShippingLineUpdate` mutation. 
-	open class CheckoutShippingLineUpdatePayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CheckoutShippingLineUpdatePayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CheckoutShippingLineUpdatePayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

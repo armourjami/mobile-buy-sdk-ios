@@ -35,7 +35,7 @@ public protocol DisplayableError {
 
 extension Storefront {
 	/// Represents an error in the input of a mutation. 
-	open class DisplayableErrorQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class DisplayableErrorQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = DisplayableError
 
 		/// Path to the input field which caused the error. 
@@ -86,7 +86,7 @@ extension Storefront {
 	}
 
 	/// Represents an error in the input of a mutation. 
-	open class UnknownDisplayableError: GraphQL.AbstractResponse, GraphQLObject, DisplayableError {
+	@objc open class UnknownDisplayableError: GraphQL.AbstractResponse, GraphQLObject, DisplayableError {
 		public typealias Query = DisplayableErrorQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

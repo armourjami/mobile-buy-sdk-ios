@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class ProductPriceRangeEdgeQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ProductPriceRangeEdgeQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ProductPriceRangeEdge
 
 		/// A cursor for use in pagination. 
@@ -48,7 +48,7 @@ extension Storefront {
 		}
 	}
 
-	open class ProductPriceRangeEdge: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class ProductPriceRangeEdge: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ProductPriceRangeEdgeQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

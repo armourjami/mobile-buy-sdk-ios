@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// An amount discounting the line that has been allocated by a discount. 
-	open class DiscountAllocationQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class DiscountAllocationQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = DiscountAllocation
 
 		/// Amount of discount allocated. 
@@ -53,7 +53,7 @@ extension Storefront {
 	}
 
 	/// An amount discounting the line that has been allocated by a discount. 
-	open class DiscountAllocation: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class DiscountAllocation: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = DiscountAllocationQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

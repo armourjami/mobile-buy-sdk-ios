@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Information about pagination in a connection. 
-	open class PageInfoQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class PageInfoQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = PageInfo
 
 		/// Indicates if there are more pages to fetch. 
@@ -47,7 +47,7 @@ extension Storefront {
 	}
 
 	/// Information about pagination in a connection. 
-	open class PageInfo: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class PageInfo: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = PageInfoQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

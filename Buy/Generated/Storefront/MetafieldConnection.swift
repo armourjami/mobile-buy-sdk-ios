@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class MetafieldConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MetafieldConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = MetafieldConnection
 
 		/// A list of edges. 
@@ -51,7 +51,7 @@ extension Storefront {
 		}
 	}
 
-	open class MetafieldConnection: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class MetafieldConnection: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = MetafieldConnectionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

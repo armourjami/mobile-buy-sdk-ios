@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// A CustomerAccessToken represents the unique token required to make 
 	/// modifications to the customer object. 
-	open class CustomerAccessTokenQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerAccessTokenQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerAccessToken
 
 		/// The customer’s access token. 
@@ -49,7 +49,7 @@ extension Storefront {
 
 	/// A CustomerAccessToken represents the unique token required to make 
 	/// modifications to the customer object. 
-	open class CustomerAccessToken: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerAccessToken: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerAccessTokenQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

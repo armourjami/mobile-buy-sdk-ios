@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Discount code applications capture the intentions of a discount code at the 
 	/// time that it is applied. 
-	open class DiscountCodeApplicationQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class DiscountCodeApplicationQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = DiscountCodeApplication
 
 		/// The method by which the discount's value is allocated to its entitled 
@@ -82,7 +82,7 @@ extension Storefront {
 
 	/// Discount code applications capture the intentions of a discount code at the 
 	/// time that it is applied. 
-	open class DiscountCodeApplication: GraphQL.AbstractResponse, GraphQLObject, DiscountApplication {
+	@objc open class DiscountCodeApplication: GraphQL.AbstractResponse, GraphQLObject, DiscountApplication {
 		public typealias Query = DiscountCodeApplicationQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

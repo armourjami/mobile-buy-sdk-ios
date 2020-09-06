@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Specifies the input fields to create a line item on a checkout. 
-	open class CheckoutLineItemInput {
+	@objc open class CheckoutLineItemInput {
 		/// Extra information in the form of an array of Key-Value pairs about the line 
 		/// item. 
 		open var customAttributes: Input<[AttributeInput]>

@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Settings related to payments. 
-	open class PaymentSettingsQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class PaymentSettingsQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = PaymentSettings
 
 		/// List of the card brands which the shop accepts. 
@@ -84,7 +84,7 @@ extension Storefront {
 	}
 
 	/// Settings related to payments. 
-	open class PaymentSettings: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class PaymentSettings: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = PaymentSettingsQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

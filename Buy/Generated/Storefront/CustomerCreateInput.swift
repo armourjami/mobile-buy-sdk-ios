@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Specifies the fields required to create a new customer. 
-	open class CustomerCreateInput {
+	@objc open class CustomerCreateInput: NSObject {
 		/// The customer’s first name. 
 		open var firstName: Input<String>
 

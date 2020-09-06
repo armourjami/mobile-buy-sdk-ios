@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Specifies the input fields required to create a customer access token. 
-	open class CustomerAccessTokenCreateInput {
+	@objc open class CustomerAccessTokenCreateInput: NSObject {
 		/// The email associated to the customer. 
 		open var email: String
 

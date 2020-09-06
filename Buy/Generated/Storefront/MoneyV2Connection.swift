@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class MoneyV2ConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MoneyV2ConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = MoneyV2Connection
 
 		/// A list of edges. 
@@ -51,7 +51,7 @@ extension Storefront {
 		}
 	}
 
-	open class MoneyV2Connection: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class MoneyV2Connection: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = MoneyV2ConnectionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

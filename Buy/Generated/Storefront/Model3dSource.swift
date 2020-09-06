@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents a source for a Shopify hosted 3d model. 
-	open class Model3dSourceQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class Model3dSourceQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Model3dSource
 
 		/// The filesize of the 3d model. 
@@ -61,7 +61,7 @@ extension Storefront {
 	}
 
 	/// Represents a source for a Shopify hosted 3d model. 
-	open class Model3dSource: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Model3dSource: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = Model3dSourceQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

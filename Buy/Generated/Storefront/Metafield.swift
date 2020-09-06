@@ -30,7 +30,7 @@ extension Storefront {
 	/// Metafields represent custom metadata attached to a resource. Metafields can 
 	/// be sorted into namespaces and are comprised of keys, values, and value 
 	/// types. 
-	open class MetafieldQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MetafieldQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Metafield
 
 		/// The date and time when the storefront metafield was created. 
@@ -103,7 +103,7 @@ extension Storefront {
 	/// Metafields represent custom metadata attached to a resource. Metafields can 
 	/// be sorted into namespaces and are comprised of keys, values, and value 
 	/// types. 
-	open class Metafield: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class Metafield: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = MetafieldQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

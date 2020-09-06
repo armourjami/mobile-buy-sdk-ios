@@ -30,7 +30,7 @@ extension Storefront {
 	/// A customer represents a customer account with the shop. Customer accounts 
 	/// store contact information for the customer, saving logged-in customers the 
 	/// trouble of having to provide it at every checkout. 
-	open class CustomerQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Customer
 
 		/// Indicates whether the customer has consented to be sent marketing material 
@@ -227,7 +227,7 @@ extension Storefront {
 	/// A customer represents a customer account with the shop. Customer accounts 
 	/// store contact information for the customer, saving logged-in customers the 
 	/// trouble of having to provide it at every checkout. 
-	open class Customer: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Customer: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

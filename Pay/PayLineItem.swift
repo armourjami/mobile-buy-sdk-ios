@@ -28,7 +28,7 @@ import Foundation
 
 /// Represents a line item in checkout with a quantity and single-unit price.
 ///
-public struct PayLineItem {
+@objc public class PayLineItem: NSObject {
     
     public let price:    Decimal
     public let quantity: Int

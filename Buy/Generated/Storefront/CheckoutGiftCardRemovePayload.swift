@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `checkoutGiftCardRemove` mutation. 
-	open class CheckoutGiftCardRemovePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CheckoutGiftCardRemovePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CheckoutGiftCardRemovePayload
 
 		/// The updated checkout object. 
@@ -64,7 +64,7 @@ extension Storefront {
 	}
 
 	/// Return type for `checkoutGiftCardRemove` mutation. 
-	open class CheckoutGiftCardRemovePayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CheckoutGiftCardRemovePayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CheckoutGiftCardRemovePayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

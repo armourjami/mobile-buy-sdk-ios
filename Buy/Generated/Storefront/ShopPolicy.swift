@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Policy that a merchant has configured for their store, such as their refund 
 	/// or privacy policy. 
-	open class ShopPolicyQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ShopPolicyQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ShopPolicy
 
 		/// Policy text, maximum size of 64kb. 
@@ -70,7 +70,7 @@ extension Storefront {
 
 	/// Policy that a merchant has configured for their store, such as their refund 
 	/// or privacy policy. 
-	open class ShopPolicy: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class ShopPolicy: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = ShopPolicyQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

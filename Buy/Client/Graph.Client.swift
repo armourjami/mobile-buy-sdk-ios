@@ -127,7 +127,7 @@ extension Graph {
         /// task.resume()
         /// ````
         ///
-        public func queryGraphWith(_ query: Storefront.QueryRootQuery, cachePolicy: CachePolicy? = nil, retryHandler: RetryHandler<Storefront.QueryRoot>? = nil, completionHandler: @escaping QueryCompletion) -> Task {
+        @objc public func queryGraphWith(_ query: Storefront.QueryRootQuery, cachePolicy: CachePolicy? = nil, retryHandler: RetryHandler<Storefront.QueryRoot>? = nil, completionHandler: @escaping QueryCompletion) -> Task {
             return self.graphRequestTask(
                 query:             query,
                 cachePolicy:       cachePolicy ?? self.cachePolicy,
@@ -155,7 +155,7 @@ extension Graph {
         /// task.resume()
         /// ````
         ///
-        public func mutateGraphWith(_ mutation: Storefront.MutationQuery, retryHandler: RetryHandler<Storefront.Mutation>? = nil, completionHandler: @escaping MutationCompletion) -> Task {
+        @objc public func mutateGraphWith(_ mutation: Storefront.MutationQuery, retryHandler: RetryHandler<Storefront.Mutation>? = nil, completionHandler: @escaping MutationCompletion) -> Task {
             return self.graphRequestTask(
                 query:             mutation,
                 cachePolicy:       .networkOnly,

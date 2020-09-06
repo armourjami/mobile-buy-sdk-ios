@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents a single fulfillment in an order. 
-	open class FulfillmentQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class FulfillmentQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Fulfillment
 
 		/// List of the fulfillment's line items. 
@@ -105,7 +105,7 @@ extension Storefront {
 	}
 
 	/// Represents a single fulfillment in an order. 
-	open class Fulfillment: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Fulfillment: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = FulfillmentQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

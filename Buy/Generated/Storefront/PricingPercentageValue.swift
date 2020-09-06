@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// The value of the percentage pricing object. 
-	open class PricingPercentageValueQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class PricingPercentageValueQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = PricingPercentageValue
 
 		/// The percentage value of the object. 
@@ -40,7 +40,7 @@ extension Storefront {
 	}
 
 	/// The value of the percentage pricing object. 
-	open class PricingPercentageValue: GraphQL.AbstractResponse, GraphQLObject, PricingValue {
+	@objc open class PricingPercentageValue: GraphQL.AbstractResponse, GraphQLObject, PricingValue {
 		public typealias Query = PricingPercentageValueQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

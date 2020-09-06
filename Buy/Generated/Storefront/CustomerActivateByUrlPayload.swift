@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `customerActivateByUrl` mutation. 
-	open class CustomerActivateByUrlPayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerActivateByUrlPayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerActivateByUrlPayload
 
 		/// The customer that was activated. 
@@ -63,7 +63,7 @@ extension Storefront {
 	}
 
 	/// Return type for `customerActivateByUrl` mutation. 
-	open class CustomerActivateByUrlPayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerActivateByUrlPayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerActivateByUrlPayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `customerDefaultAddressUpdate` mutation. 
-	open class CustomerDefaultAddressUpdatePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerDefaultAddressUpdatePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerDefaultAddressUpdatePayload
 
 		/// The updated customer object. 
@@ -64,7 +64,7 @@ extension Storefront {
 	}
 
 	/// Return type for `customerDefaultAddressUpdate` mutation. 
-	open class CustomerDefaultAddressUpdatePayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerDefaultAddressUpdatePayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerDefaultAddressUpdatePayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

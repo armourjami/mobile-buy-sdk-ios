@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Specifies the fields accepted to create or update a mailing address. 
-	open class MailingAddressInput {
+	@objc open class MailingAddressInput: NSObject {
 		/// The first line of the address. Typically the street address or PO Box 
 		/// number. 
 		open var address1: Input<String>

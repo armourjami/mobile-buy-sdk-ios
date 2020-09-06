@@ -30,7 +30,7 @@ import Foundation
 /// the `token`, this structure includes final information that is available *only* after payment authorization,
 /// such as `billingAddress` and a complete `shippingAddress`.
 ///
-public struct PayAuthorization {
+@objc public class PayAuthorization: NSObject {
 
     /// Encrypted JSON payment data represented by a string
     public let token: String

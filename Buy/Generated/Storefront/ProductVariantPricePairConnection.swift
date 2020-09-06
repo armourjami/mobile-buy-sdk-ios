@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class ProductVariantPricePairConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ProductVariantPricePairConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ProductVariantPricePairConnection
 
 		/// A list of edges. 
@@ -51,7 +51,7 @@ extension Storefront {
 		}
 	}
 
-	open class ProductVariantPricePairConnection: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class ProductVariantPricePairConnection: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ProductVariantPricePairConnectionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

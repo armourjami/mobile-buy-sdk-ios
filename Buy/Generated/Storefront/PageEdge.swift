@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class PageEdgeQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class PageEdgeQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = PageEdge
 
 		/// A cursor for use in pagination. 
@@ -48,7 +48,7 @@ extension Storefront {
 		}
 	}
 
-	open class PageEdge: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class PageEdge: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = PageEdgeQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

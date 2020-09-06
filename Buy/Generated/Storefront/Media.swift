@@ -37,7 +37,7 @@ public protocol Media {
 
 extension Storefront {
 	/// Represents a media interface. 
-	open class MediaQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MediaQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Media
 
 		/// A word or phrase to share the nature or contents of a media. 
@@ -107,7 +107,7 @@ extension Storefront {
 	}
 
 	/// Represents a media interface. 
-	open class UnknownMedia: GraphQL.AbstractResponse, GraphQLObject, Media {
+	@objc open class UnknownMedia: GraphQL.AbstractResponse, GraphQLObject, Media {
 		public typealias Query = MediaQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

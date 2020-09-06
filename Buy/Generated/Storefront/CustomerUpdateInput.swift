@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Specifies the fields required to update the Customer information. 
-	open class CustomerUpdateInput {
+	@objc open class CustomerUpdateInput {
 		/// The customer’s first name. 
 		open var firstName: Input<String>
 

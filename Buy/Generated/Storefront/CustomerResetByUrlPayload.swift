@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `customerResetByUrl` mutation. 
-	open class CustomerResetByUrlPayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerResetByUrlPayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerResetByUrlPayload
 
 		/// The customer object which was reset. 
@@ -74,7 +74,7 @@ extension Storefront {
 	}
 
 	/// Return type for `customerResetByUrl` mutation. 
-	open class CustomerResetByUrlPayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerResetByUrlPayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerResetByUrlPayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

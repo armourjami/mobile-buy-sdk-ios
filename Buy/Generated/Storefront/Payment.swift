@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// A payment applied to a checkout. 
-	open class PaymentQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class PaymentQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Payment
 
 		/// The amount of the payment. 
@@ -137,7 +137,7 @@ extension Storefront {
 	}
 
 	/// A payment applied to a checkout. 
-	open class Payment: GraphQL.AbstractResponse, GraphQLObject, Node {
+	@objc open class Payment: GraphQL.AbstractResponse, GraphQLObject, Node {
 		public typealias Query = PaymentQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

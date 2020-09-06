@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents an error in the input of a mutation. 
-	open class UserErrorQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class UserErrorQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = UserError
 
 		/// Path to the input field which caused the error. 
@@ -47,7 +47,7 @@ extension Storefront {
 	}
 
 	/// Represents an error in the input of a mutation. 
-	open class UserError: GraphQL.AbstractResponse, GraphQLObject, DisplayableError {
+	@objc open class UserError: GraphQL.AbstractResponse, GraphQLObject, DisplayableError {
 		public typealias Query = UserErrorQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

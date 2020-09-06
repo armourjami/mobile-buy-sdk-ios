@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// The author of an article. 
-	open class ArticleAuthorQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ArticleAuthorQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ArticleAuthor
 
 		/// The author's bio. 
@@ -68,7 +68,7 @@ extension Storefront {
 	}
 
 	/// The author of an article. 
-	open class ArticleAuthor: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class ArticleAuthor: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ArticleAuthorQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

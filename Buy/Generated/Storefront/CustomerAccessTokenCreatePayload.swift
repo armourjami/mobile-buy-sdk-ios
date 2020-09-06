@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Return type for `customerAccessTokenCreate` mutation. 
-	open class CustomerAccessTokenCreatePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerAccessTokenCreatePayloadQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerAccessTokenCreatePayload
 
 		/// The newly created customer access token object. 
@@ -64,7 +64,7 @@ extension Storefront {
 	}
 
 	/// Return type for `customerAccessTokenCreate` mutation. 
-	open class CustomerAccessTokenCreatePayload: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class CustomerAccessTokenCreatePayload: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = CustomerAccessTokenCreatePayloadQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

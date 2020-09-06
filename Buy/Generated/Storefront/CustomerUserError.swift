@@ -28,7 +28,7 @@ import Foundation
 
 extension Storefront {
 	/// Represents an error that happens during execution of a customer mutation. 
-	open class CustomerUserErrorQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class CustomerUserErrorQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = CustomerUserError
 
 		/// Error code to uniquely identify the error. 
@@ -54,7 +54,7 @@ extension Storefront {
 	}
 
 	/// Represents an error that happens during execution of a customer mutation. 
-	open class CustomerUserError: GraphQL.AbstractResponse, GraphQLObject, DisplayableError {
+	@objc open class CustomerUserError: GraphQL.AbstractResponse, GraphQLObject, DisplayableError {
 		public typealias Query = CustomerUserErrorQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

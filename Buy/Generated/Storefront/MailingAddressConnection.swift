@@ -27,7 +27,7 @@
 import Foundation
 
 extension Storefront {
-	open class MailingAddressConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MailingAddressConnectionQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = MailingAddressConnection
 
 		/// A list of edges. 
@@ -51,7 +51,7 @@ extension Storefront {
 		}
 	}
 
-	open class MailingAddressConnection: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class MailingAddressConnection: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = MailingAddressConnectionQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

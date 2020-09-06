@@ -32,7 +32,7 @@ public extension Graph {
     enum QueryError: Error {
 
         /// For invalid queries, a collection of `Reason`s is provided to indicate exactly where the problem occurred in the query.
-        public struct Reason {
+        @objc public class Reason: NSObject {
 
             /// The error message associated with the line and column number
             public let message: String

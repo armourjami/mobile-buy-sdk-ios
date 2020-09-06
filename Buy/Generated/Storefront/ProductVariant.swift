@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// A product variant represents a different version of a product, such as 
 	/// differing sizes or differing colors. 
-	open class ProductVariantQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ProductVariantQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = ProductVariant
 
 		/// Indicates if the product variant is in stock. 
@@ -390,7 +390,7 @@ extension Storefront {
 
 	/// A product variant represents a different version of a product, such as 
 	/// differing sizes or differing colors. 
-	open class ProductVariant: GraphQL.AbstractResponse, GraphQLObject, HasMetafields, MetafieldParentResource, Node {
+	@objc open class ProductVariant: GraphQL.AbstractResponse, GraphQLObject, HasMetafields, MetafieldParentResource, Node {
 		public typealias Query = ProductVariantQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

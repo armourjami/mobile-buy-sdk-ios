@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// Shop represents a collection of the general settings and information about 
 	/// the shop. 
-	open class ShopQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class ShopQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Shop
 
 		/// List of the shop' articles. 
@@ -459,7 +459,7 @@ extension Storefront {
 
 	/// Shop represents a collection of the general settings and information about 
 	/// the shop. 
-	open class Shop: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Shop: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = ShopQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {

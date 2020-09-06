@@ -32,7 +32,7 @@ import PassKit
 /// in the checkout summary item. Otherwise, the code is shown in the
 /// item label.
 ///
-public struct PayDiscount {
+@objc public class PayDiscount: NSObject {
 
     public let code:   String
     public let amount: Decimal

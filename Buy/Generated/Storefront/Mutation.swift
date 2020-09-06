@@ -29,7 +29,7 @@ import Foundation
 extension Storefront {
 	/// The schema’s entry-point for mutations. This acts as the public, top-level 
 	/// API from which all mutation queries must start. 
-	open class MutationQuery: GraphQL.AbstractQuery, GraphQLQuery {
+	@objc open class MutationQuery: GraphQL.AbstractQuery, GraphQLQuery {
 		public typealias Response = Mutation
 
 		open override var description: String {
@@ -1050,7 +1050,7 @@ extension Storefront {
 
 	/// The schema’s entry-point for mutations. This acts as the public, top-level 
 	/// API from which all mutation queries must start. 
-	open class Mutation: GraphQL.AbstractResponse, GraphQLObject {
+	@objc open class Mutation: GraphQL.AbstractResponse, GraphQLObject {
 		public typealias Query = MutationQuery
 
 		internal override func deserializeValue(fieldName: String, value: Any) throws -> Any? {
